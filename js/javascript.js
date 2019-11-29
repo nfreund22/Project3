@@ -6,4 +6,9 @@ var mapProp= {
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 
-window.onload = loadScript;
+function runScript() {
+	var script = document.createElement('script');
+	script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDz5s8CAgKAo_T0ta_SmLavEEi56lOnhzQ&callback=initMap';
+	document.body.appendChild(script);
+}
+window.onload = runScript;
