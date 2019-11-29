@@ -1,0 +1,138 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  background-color: white;
+}
+.nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li {
+  float: left; 
+}
+
+.nav li a:hover {
+  background-color: #ACACAC; 
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(sansation_light.woff);
+}
+
+p {
+  font-family: myFont; 
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown1-content {
+  display: none;
+  position: absolute;
+  background-color: #F9F9F9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown1:hover .dropdown1-content {
+  display: block;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: #F9F9F9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown2:hover .dropdown2-content {
+  display: block;
+}
+
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown3-content {
+  display: none;
+  position: absolute;
+  background-color: #F9F9F9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown3:hover .dropdown3-content {
+  display: block;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%; 
+  }
+}
+
+.img1 {
+  width: 100%;
+  height: auto;
+}
+
+.img2 {
+  width: 100%;
+  height: auto;
+}
+
+.img3 {
+  width: 100%;
+  height: auto;
+}
+
+.resumediv {
+  background-color: lightgrey;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 50px;
+}
