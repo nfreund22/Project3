@@ -9,5 +9,4 @@ var map;
                   map: map,
                   title: "My Hometown"
             });
-        });
       }
