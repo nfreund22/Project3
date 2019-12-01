@@ -23,6 +23,6 @@ var map;
             });
             
             marker1.addListener('click', function() {
-                  infoWindow1.open(map,marker);
+                  infoWindow1.open(map, marker1);
             });
       }
