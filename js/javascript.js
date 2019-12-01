@@ -25,7 +25,7 @@ var map;
             marker1.addListener('click', function() {
                   infoWindow1.open(map, marker1);
             });
-            
+            /*
             var cityCircle = new google.maps.Circle({
                   strokeColor: '#FF0000',
                   strokeOpacity: 0.8,
@@ -36,4 +36,5 @@ var map;
                   center: city,
                   radius: 100
             });
+            */
       }
