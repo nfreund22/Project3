@@ -102,15 +102,14 @@ p {
   .column {
     width: 100%; 
   }
-  .amountMeBody {
+  .amountmebody {
     background-color: white;
     text-align: left;
   }
-  .aboutMeh1 {
+  .aboutmeh1 {
     background-color: lightblue; 
     font-family: "Times New Roman", Times, serif;
   }
-  
 }
 
 /*for tablets and desktops, for homepage*/
@@ -126,6 +125,25 @@ p {
   content: "";
   display: table;
   clear: both;
+}
+
+@media screen and (orientation: landscape) {
+  .column {
+    float: left;
+    width: 45%;
+    padding: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+  }
+  
+  .aboutmebody {
+    background-color: lightblue;
+  }
+  
+  .aboutmeh1 {
+    background-color: white;
+  }
 }
 
 .img1 {
