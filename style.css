@@ -161,6 +161,16 @@ p {
   height: auto;
 }
 
+.imgselfie1 {
+  width: 100%;
+  height: auto;
+}
+
+.imgselfie2 {
+  width: 100%;
+  height: auto;
+}
+
 .resumediv {
   background-color: lightgrey;
   border: 15px solid black;
