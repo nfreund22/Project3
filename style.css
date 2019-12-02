@@ -4,13 +4,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 600px) {
-  #resume-body {
-    background-color: white;
-    text-align: left;
-  }
-}
-
 h1 {
   background-color: white;
 }
@@ -104,22 +97,26 @@ p {
   display: block;
 }
 
-.column {
-  float: left;
-  width: 45%;
-  padding: 15px;
+/*for mobile*/
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%; 
+  }
+}
+
+/*for tablets and desktops*/
+@media screen and (min-width:600px) {
+  .column {
+    float: left;
+    width: 45%;
+    padding: 15px;
+  }
 }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
-
-@media screen and (max-width:600px) {
-  .column {
-    width: 100%; 
-  }
 }
 
 .img1 {
