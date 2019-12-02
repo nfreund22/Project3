@@ -208,7 +208,7 @@ height: 600px;
 }
 
 .next {
-  right: 150px;
+  position: relative;
   border-radius: 3px 0 0 3px;
 }
 
