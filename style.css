@@ -97,14 +97,23 @@ p {
   display: block;
 }
 
-/*for mobile*/
+/*for mobile, for homepage*/
 @media screen and (max-width:600px) {
   .column {
     width: 100%; 
   }
+  .amountMeBody {
+    background-color: white;
+    text-align: left;
+  }
+  .aboutMeh1 {
+    background-color: lightblue; 
+    font-family: "Times New Roman", Times, serif;
+  }
+  
 }
 
-/*for tablets and desktops*/
+/*for tablets and desktops, for homepage*/
 @media screen and (min-width:600px) {
   .column {
     float: left;
