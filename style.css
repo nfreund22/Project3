@@ -197,6 +197,7 @@ height: 600px;
   position: relative;
   top: 50%;
   width: auto;
+  margin: auto;
   margin-top: -22px;
   color: white;
   font-weight: bold;
@@ -207,7 +208,7 @@ height: 600px;
 }
 
 .next {
-  right: 0;
+  right: 150px;
   border-radius: 3px 0 0 3px;
 }
 
